@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.body{
+    display: flex;
+    justify-content: center; 
+    padding:2%;
+    
+}
+.main{
+    width:60%;
+    display: flex;
+    border:3px solid black;  
+    border-radius: 15px;
+   
+}
+.leftside{
+    background-color: gray;
+    
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+    h1,h3{
+      text-align: center;
+    }
+  
+}
+img{
+ border-radius: 80px;
+margin-left: 10px;
+ 
+}
+h1{
+    color:white;
+    
+    
+}
+.lname{
+   padding-left:50px;
+}
+.Personalinfo {
+    margin-top: 20px;
+ padding-left:3px ;
+    font-size: 15px;
+    line-height: 25px;
+  h3{
+    margin-left:10px;
+    margin-bottom: 5px;
+  }
+    
+}
+.Skills{
+    display: block;
+    margin-top: 20px;
+     font-size: 15px;
+    line-height: 20px;
+    margin-right: 75px;
+  h3{
+   margin-bottom: 5px;
+  }
+}
+.Language{
+    margin-top: 20px;
+    padding-left: 5px;
+    font-size: 15px;
+    line-height: 20px;
+  h3{
+    margin-right:50px;
+    margin-bottom: 5px;
+  }
+  p{
+    display: inline;
+
+  }
+}
+.rightside{
+  padding: 25px;
+  width: 80%;
+ 
+  h1{
+    color: black;
+  }
+}
+.about{
+  margin-bottom: 25px;
+  h1{
+    background-color: gray;
+    margin-bottom: 3px;
+  }
+
+}
+.Experience{
+  
+  margin-bottom: 25px;
+  .expyear{
+    display: flex;
+    gap: 110px;
+   }
+  h1{
+    margin-bottom: 3px;
+    background-color: gray;
+  }
+  }
+
+  .Education{
+    margin-bottom: 25px;
+   .eduyear{
+    display: flex;
+    gap: 110px;
+   }
+    h1{
+      margin-bottom: 3px;
+      background-color: gray;
+    }
+    }
+.Reference h1{
+
+   background-color: gray;
+}
+
+.btn{
+  text-align: center;
+
+  .skill-btn{
+    background-color: gray;
+    width: 60px;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 4px;
+    font-size:15px;
+    
+   
+  }
+  .print-btn{
+    background-color: gray;
+    width: 60px;
+    height: 30px;
+margin-bottom: 2px;
+    color: aliceblue;
+    border-radius: 4px;
+    font-size:15px;
+    margin-left: 20px;
+  }
+}
+.hide{
+  display:none;
+}
+
+@media (max-width:786px){
+ 
+  .main{
+    width:100%;
+    display: flex;
+    flex-direction: column;  
+  }
+  .leftside{
+    width: 100%;
+  }
+  .rightside{
+    padding: 25px;
+    width: 90%;
+   
+    h1{
+      color: black;
+    }
+  }
+  }
+
